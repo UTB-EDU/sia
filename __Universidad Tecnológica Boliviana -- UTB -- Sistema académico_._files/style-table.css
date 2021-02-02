@@ -1,0 +1,189 @@
+
+/*-----------------------------------*/
+/* Table Pricing */
+/*-----------------------------------*/
+
+.price_item{background: #3bbec0;}
+.price_item.blue{background: #67b0d1;}
+.price_item.green{background: #60cd9b;}
+.price_item.red{background: #e87352;}
+.price_item.yellow{background: #ebc85e;}
+.price_item.turquoise{background: #1d5f60;}
+.price_item.black{background: #333;}
+.price_item.brown{background: #a48b60;}
+.price_item.carrot{background: #e67e22;}
+.price_item.pumpkit{background: #d35400;}
+.price_item.asbestos{background: #7f8c8d;}
+.price_item.amethyst{background: #9b59b6;}
+.price_item.cloud{background: #f4f4f4;/* #ecf0f1;*/}
+.price_item.powderblue{background: #99aad5;}
+
+
+.price_item{text-align: center; margin-bottom: 30px;}
+
+/* price style 1 */
+
+.price_item a
+{  
+    color: #fff;
+    text-decoration: none;
+    
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.7),
+    	         0px -5px 35px rgba(255,255,255,1);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='#ffffff')"; 
+}
+
+.price_item a:hover,a:focus{
+    color:#253139;    
+    text-decoration: none;
+    font-size:12pt; 
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.7),
+    	         0px -5px 35px rgba(255,255,255,1);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='#ffffff')";    
+}
+
+.price_col_head strong{    
+    display: block;
+    background: #bbb;
+    background: rgba(0,0,0,0.05);
+    padding: 7px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    vertical-align: center;
+}
+
+.price_col_head a{
+    color:#fff;
+    /*background-color: #3f98f1;*/
+     text-shadow: 2px 8px 6px rgba(0,0,0,0.7),
+    	         0px -5px 35px rgba(255,255,255,1);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='#ffffff')"; 
+   
+}
+.price_col_head a:hover,a:focus{
+    color:#253139;    
+    font-size:13pt; 
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.7),
+    	         0px -5px 35px rgba(255,255,255,1);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='#ffffff')";   
+}
+
+.price_body_top{
+    padding: 35px 15px 45px 10px;
+    border-bottom: 1px solid #888;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.pricing_box .price{
+    display: inline-block;
+    position: relative;
+    font-size: 60px;
+    font-weight: 400;
+    color: #fff;
+}
+.pricing_box .price *{position: absolute;}
+
+.pricing_box .price em{
+    font-size: 0.6em;
+    font-weight: 300;
+    font-style: normal;
+    top: 0.32em;
+    left: -0.6em;
+}
+.pricing_box .price sup{
+    font-size: 0.44em;
+    top: auto;
+    left:103%;
+    bottom: 0.68em;
+}
+.pricing_box .price sub{
+    font-size: 0.24em;
+    font-weight: 300;
+    color: #afe4ff;
+    left:100%;
+    bottom: 0.2em;
+}
+#pie_tabla table{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    border-color: #fff;
+    left:100%;
+    bottom: 0.2em;
+}
+#pie_tabla thead{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #253139;
+    border-color: #fff;
+    left:100%;
+    bottom: 0.2em;
+}
+#pie_tabla tbody{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+    border-color: #fff;
+    left:100%;
+    bottom: 0.2em;
+}
+
+.price_col_body li{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 24px;
+    padding: 10px 10px 10px 23px;
+    border-bottom: 1px solid #888;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.price_col_body li span.large{
+    font-size: 30px;
+    vertical-align: top;
+}
+
+.price_col_foot{
+    background: #bbb;
+    background: rgba(0,0,0,0.05);
+    padding: 10px 0 5px;
+}
+.price_col_foot .btn span, .price_col_foot .btn input{background-color: transparent;}
+
+.tabla_r {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 0px;
+}
+.tabla_r > thead > tr > th,
+.tabla_r > tbody > tr > th,
+.tabla_r > tfoot > tr > th,
+.tabla_r > thead > tr > td,
+.tabla_r > tbody > tr > td,
+.tabla_r > tfoot > tr > td {
+  padding: 2px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 0px solid #ddd;
+}
+.tabla_r > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #ddd;
+}
+.tabla_r > caption + thead > tr:first-child > th,
+.tabla_r > colgroup + thead > tr:first-child > th,
+.tabla_r > thead:first-child > tr:first-child > th,
+.tabla_r > caption + thead > tr:first-child > td,
+.tabla_r > colgroup + thead > tr:first-child > td,
+.tabla_r > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+.tabla_r > tbody + tbody {
+  border-top: 0px solid #ddd;
+}

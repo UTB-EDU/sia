@@ -1,0 +1,292 @@
+
+
+
+@media (min-width: 240px) { 
+	body {
+		margin-top: 54px;
+		font-family: 'Source Sans Pro',sans-serif,verdana;
+	}
+}
+
+@media (min-width: 320px) { 
+	body {
+		margin-top: 54px;
+		font-family: 'Source Sans Pro',sans-serif,verdana;
+	}
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	body {
+		margin-top: 80px;
+		font-family: 'Source Sans Pro',sans-serif,verdana;
+	}
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	body {
+		margin-top: 80px;
+		font-family: 'Source Sans Pro',sans-serif,verdana;
+	}
+}
+
+/*body {
+	margin-top: 80px;main-header
+	font-family: 'Source Sans Pro', tahoma;
+}*/
+p {
+	color: #777;
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-weight: 300;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+ul li {
+	margin-bottom: 5px;
+}
+
+
+/* *************************************
+* *************** Header ***************
+* ************************************ */
+#main-header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	/*background-color: #2796c8; /* #00bfe1;*/
+	background-color: #FFF;
+
+	background-image: url("../img/rejilla.png");
+	z-index: 99;
+
+	/*background-color: rgb(198, 76, 56);
+    background-color: rgba(198, 76, 56, 0.95);*/
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#11000000, endColorstr=#11000000)";
+
+
+	-moz-box-shadow: 0 1px 5px #999;
+	-webkit-box-shadow: 0 1px 5px #999;
+	box-shadow: 0 1px 5px #999;
+}
+
+
+#main-logo {
+	width: 113px;
+	height: 80px;
+	padding: 2px 0 0 20px;
+	margin: 0;
+	background-color: #fff;
+	/*background-color: #a9b2b2;*/
+	/*background-color: #f1c40f;*/
+
+}
+
+#main-logo > a {
+	font-size: 20px;
+	font-size: 2rem;
+	font-weight: 600;
+	/*color: #fff;*/
+	color:#00bfe1;
+	text-decoration: none;
+}
+
+#main-logo > a > span {
+	display: block;
+	color: #333333;
+	font-size: 13px;
+	font-size: 1.3rem;
+}
+
+/* *************************************
+* *********** Menu de Navegacion **********
+* ************************************ */
+#main-menu {
+	float:right;
+	margin-top: 30px;
+}
+
+#main-menu a {
+	/*color: #fff;*/
+	color: #00bfe1;
+	font-weight: 500px;
+}
+
+#main-menu a:hover {
+	/*color: #fff;*/
+	color: #253139;
+	font-weight: 500px;
+}
+
+#main-menu.nav-pills>li.active>a, 
+#main-menu.nav-pills>li.active>a:hover, 
+#main-menu.nav-pills>li.active>a:focus,
+#main-menu.nav-pills>li>a:hover {
+	background: none;
+}
+
+#main-menu.nav-pills>li.active>a, 
+#main-menu.nav-pills>li.active>a:hover, 
+#main-menu.nav-pills>li.active>a:focus {
+	/*color: 	#428bca;	*/
+	color: 	#fff;
+}
+
+#main-menu.nav .open>a, 
+#main-menu.nav .open>a:hover, 
+#main-menu.nav .open>a:focus {
+	background: none;
+}
+
+.ico_usuario:before{
+   content: url("../img/glyphicons/png/glyphicons_024_parents.png");	
+}
+.ico_inicio:before{
+   content: url("../img/glyphicons/png/glyphicons_020_home.png"); 
+}
+.ico_salir:before{
+   content: url("../img/glyphicons/png/glyphicons_063_power.png");	
+}
+.ico_formulario:before{
+	content: url("../img/glyphicons/png/glyphicons_062_paperclip.png");
+}
+.ico_opciones:before{
+	content: url("../img/glyphicons/png/glyphicons_029_notes_2.png");
+}
+
+/* Menu para aplicaciones moviles*/
+#mobile-menu-button {
+	float: right;
+	width: 44px;
+	margin: 20px 0;
+}
+
+#mobile-main-menu {
+	display: none;
+}
+
+#mobile-main-menu a {
+	display: block;
+	width: 100%;
+	padding: 10px 0;
+	border-top: 1px solid #eee;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#mobile-main-menu li {
+	margin: 0;
+}
+
+#mobile-main-menu a:hover {
+	color: #fff;
+	text-decoration: none;
+	background-color: #0284c3;/* #428bca;*/
+}
+/*Menu para aplicaciones moviles*/
+/* *************************************
+* *************** Footer ***************
+* ************************************ */
+footer {
+	padding: 30px 0;
+	background-color: #333;
+}
+
+footer a, footer a:hover {
+	color: #fff;
+	font-weight: 400;
+}
+
+footer h3 {
+	margin-top: 30px;
+	color: #fff;
+	font-size: 16px;
+	font-size: 1.6rem;
+	text-transform: uppercase;
+}
+
+footer p {
+	color: #ddd;
+	font-weight: 200;
+}
+
+#next-workshops {
+	color: #fff;
+	text-decoration: none;
+}
+
+#next-workshops a {
+	color: #2796c8;
+	text-decoration: none;
+}
+
+#next-workshops .pizquierda {
+	color: #e6e6e6;
+	font-size: 14px;
+	float: left; 
+	clear: left;
+}
+
+#next-workshops .pderecha {
+	float: right; 
+	clear: right;
+	color: #e6e6e6;
+	font-size: 14px;	
+}
+#next-workshops span {
+	color: #fff;
+	font-size: 14px;
+}
+
+#next-workshops a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+/*Progress*/
+.PopupProgress
+{
+    width:230px;
+    height:45px;
+    padding:5px 10px 0px 10px; 
+    color:#efefef; 
+    font-size:12px; 
+}
+
+.ModalBackground
+{
+    background-color:White;
+    filter:alpha(opacity=80);
+    opacity:0.80;
+}
+
+.PopupLarge
+{
+    Width:400px;
+    Height:270px;
+    padding:20px 20px 0px 30px; 
+    color:#000; 
+    font-size:11px;
+    background:url(../img/popup_medium.jpg) no-repeat;
+   
+}
+
+.PopupSmall
+{
+    width:460px;
+    Height:90px;   
+    padding:5px 20px 0px 20px; 
+    background-color:#34495E;
+    color:#333;
+    /*background:url(../img/popup_small.gif) no-repeat;*/
+}
+
+

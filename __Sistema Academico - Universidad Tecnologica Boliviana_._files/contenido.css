@@ -1,0 +1,276 @@
+﻿.workshop {
+	width: 100%;
+	padding: 50px 0;
+	
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	font-weight: 300;	
+}
+
+.workshop a, 
+.workshop a:hover {
+	color: #fff;
+	font-weight: 400;
+}
+
+.workshop .btn,
+.workshop .btn:hover {
+	padding: 10px 35px;
+	color: #fff;
+}
+
+.tituloSis
+{
+	font-family: verdana;
+	font-size: 24pt;
+	text-align: center;
+	color: #fff; /*#00bfe1; #0065BF*/
+	text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+    	         0px -5px 35px rgba(255,255,255,0.7);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=90, Color='#ffffff')";
+ }
+
+
+.tabla_ingreso { 
+	/*border-right: #333333 1px  dashed; */
+	border-spacing: 0px;
+	margin-left: 20px;
+}
+
+.td_ingreso { margin: 5px; padding: 7px 7px;
+}
+
+.tituloIngreso{	
+	color: #00bfe1;
+	text-align: center;	
+	font-family: verdana;
+}
+
+.tabla_informacion { 
+	border-left:  #fdc500 1px  solid;
+	margin-top: 10px; 				
+}
+
+.td_informacion { padding: 2px 30px; 
+}
+
+.tituloInformacion{	
+	color: #00bfe1;
+	text-align: Left;
+	font-style: bold;	
+	font-family: verdana;
+	font-size: 14px;
+}
+
+.letras{
+	color: #bec3c7; /* #00bfe1;*/
+	text-align: right;
+	font-size: 11px;
+	font-family: verdana;
+  
+}
+
+.form-cajatexto:focus{border-color:#66afe9;
+	vertical-align: middle;
+	color: #305e97;
+	outline:0;
+	-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+	box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+}
+input.caja_usuario{ background-position: right center;
+	vertical-align: middle;
+	color: #305e97;
+	 font-family: verdana;
+	 font-size: 13px;
+	 padding-right: 26px; 
+	 width:175px; 
+	 background-image: url(../img/glyphicons/png/glyphicons_024_parents26.png);
+	 background-repeat: no-repeat; 
+} 
+input.caja_password{ background-position: right center;
+	vertical-align: middle;
+	color: #305e97;
+	 font-family: verdana;
+	 font-size: 13px;
+	 padding-right: 26px; 
+	 width:175px; 
+	 background-image: url(../img/glyphicons/png/glyphicons_044_keys20.png);
+	 background-repeat: no-repeat; 
+} 
+/*primer articulo*/
+#w1 
+{
+    /*background:#007aaf;*/
+	background: #253139;
+	min-height: 800px;
+}
+
+	#w1 p {
+		color: #bec3c7;
+		font-size: 13px;
+		font-family: verdana;
+	}
+
+	#w1 p > a {
+		/*color: #30af91;*/
+		text-decoration: none;
+	}
+
+	#w1 .btn{
+		font-family: 'Source Sans Pro';
+		border: 0;
+		border-radius: 2px;
+		width: 70px;		
+		
+		font-size: 14px;
+		font-size: 1.4rem;
+		font-weight: 600;
+		padding: 0px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-style: bold;
+		text-align: center;		
+		vertical-align: center;
+	}
+
+	#w1 .btn-Ingresar {
+		width:100px;
+		/*background-color: #30af91;*/
+		background-color: #2a80b9;
+		color: #fff;	
+		text-decoration: none;	
+		/*background-position: left center;	
+		margin:3px;		 
+		background-image: url(../img/glyphicons/png/glyphicons_206_ok_2_20.png);
+		background-repeat: no-repeat; */
+	}
+
+	#w1 .btnFace {
+		background-image: url(../img/facebook1.png);
+		/*background-color: #305e97;*/
+		color: #FFFFFF;		
+		text-decoration: none;
+ background-repeat: no-repeat; 
+width: 50px;
+height: 50px;
+	}
+
+	#w1 .btnTwitter {
+		background-image: url(../img/twitter1.png);
+		/*background-color: #70bad5;*/
+		color: #FFFFFF;		
+		text-decoration: none;	
+ background-repeat: no-repeat; 	
+width: 50px;
+height: 50px;
+	}
+
+	#w1 .btnGoogle {		
+		background-color: #c95541;
+		color: #FFFFFF;	
+		text-decoration: none;
+	}
+	#w1 .btnCallcenter {
+		background-image: url(../img/CallCenter1.png);
+		/*background-color: #305e97;*/
+		color: #FFFFFF;		
+		text-decoration: none;
+ background-repeat: no-repeat; 
+width: 100px;
+height: 50px;
+	}
+
+	#w1 .btnWhats {
+		background-image: url(../img/whatsapp1.png);
+		/*background-color: #305e97;*/
+		color: #FFFFFF;		
+		text-decoration: none;
+ background-repeat: no-repeat; 
+width: 100px;
+height: 50px;
+	}
+
+#nota{
+	padding-top: 50px;
+	font-size: 16px;
+	
+	text-align:center;
+}
+#nota .nota1{
+	font-size: 18px;
+	font-weight: 600;
+	color: #e67e22;
+}
+
+#nota .nota2{	
+	color: #fff;
+}
+
+#pie_pagina{
+	color: #e6e6e6;
+	font-size: 14px;
+}
+
+.BloqueIni{
+	width:auto;
+	height: auto;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#213341', endColorstr = '#a9b2b2');
+/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+/*Element must have a height (not auto)*/
+/*All filters must be placed together*/
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr = '#213341', endColorstr = '#a9b2b2')";
+/*Element must have a height (not auto)*/
+/*All filters must be placed together*/
+background-image: -moz-linear-gradient(top, #213341, #a9b2b2);
+background-image: -ms-linear-gradient(top, #213341, #a9b2b2);
+background-image: -o-linear-gradient(top, #213341, #a9b2b2);
+background-image: -webkit-gradient(linear, center top, center bottom, from(#213341), to(#a9b2b2));
+background-image: -webkit-linear-gradient(top, #213341, #a9b2b2);
+background-image: linear-gradient(top, #213341, #a9b2b2);
+/*--IE9 DOES NOT SUPPORT CSS3 GRADIENT BACKGROUNDS--*/
+}
+
+
+/*El tamaño de las letras sera menor en tabletas y small devices*/
+/* Small devices (phones, 320px and up) */
+@media (min-width: 240px) { 
+
+	.workshop h2 {
+		font-size: 22px;
+		padding-bottom: 40px;		
+	}
+}
+
+@media (min-width: 320px) { 
+
+	.workshop h2 {
+		font-size: 22px;
+		padding-bottom: 40px;		
+	}
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+	.workshop h2 {
+		font-size: 25px;		
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.workshop h2{
+		font-size: 25px;		
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+		.workshop h2{
+		font-size: 25px;		
+	}
+
+}
+
+
